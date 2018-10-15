@@ -1,3 +1,42 @@
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+}
+
+body{
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+}
+
 body {
-	
+    background-image: url("184730.jpg	");
+    background-repeat: no-repeat;
+    background-size: 1440px 
+}
+
+body {
+	text-shadow: 10
+}
+
+#desc {
+padding-left: 250px;
+padding-right: 250px;
+}
+
+#heading {
+padding-left: 600px;
+padding-right: 600px;
+}
+
+
+#nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #34495e
+height: 100%
+position: fixed; 
+padding-left: 600px;
+padding-right: 600px;
 }

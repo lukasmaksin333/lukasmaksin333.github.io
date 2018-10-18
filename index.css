@@ -2,15 +2,15 @@ body {
 	text-decoration-color: blue;
 	background-color: black;
 	font-family: 'Helvetica', sans-serif;
-	color: white;
-    background-image: url("1039331281.jpg");
+	color: black;
+    background-image: url("afgan.jpg");
     background-size:cover;
 	text-shadow: 10;
 }
 
 h1 {
 	font-family: 'Helvetica', sans-serif;
-	color: white;
+	color: black;
 }
 
 

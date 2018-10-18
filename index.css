@@ -1,7 +1,11 @@
 body {
 	text-decoration-color: blue;
-	background-color: black
-	
+	background-color: black;
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+    background-image: url("1039331281.jpg");
+    background-size: 
+	text-shadow: 10;
 }
 
 h1 {
@@ -9,14 +13,6 @@ h1 {
 	color: white;
 }
 
-body{
-	font-family: 'Helvetica', sans-serif;
-	color: white;
-    background-image: url("1039331281.jpg");
-    background-repeat: no-repeat;
-    background-size: 1900px 
-	text-shadow: 10
-}
 
 #desc {
 padding-left: 250px;
@@ -30,11 +26,42 @@ padding-right: 600px;
 
 
 #nav ul {
+
 list-style-type: none;
 margin: 0;
 padding: 0;
-background-color: #34495e
-height: 100%
+top: 0;
+left: 0;
+overflow: hidden;
+background-color: #34495e;
+height: 100%; /*delete for vertical bar*/
+/*width: 100%; Use for vertical bar */
+position: fixed; /* Make it stick, even on scroll */
+}
+
+#nav li {
+height: 40px;
+line-height: 40px;
+float: left;/*delete for vertical bar*/
+
+}
+
+#nav li a {
+display: block;
+color: #fff;
+padding: 8px 16px;
+text-decoration: none;
+
+}
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+background-color: #111;
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #34495e;
+height: 100%;
 position: fixed; 
 padding-left: 600px;
 padding-right: 600px;
